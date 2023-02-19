@@ -17,5 +17,7 @@ const deploy = async () => {
   console.log(face);
   // 合約地址
   console.log(result.options.address);
+   // 部署成功後終止操作
+  process.exit(0);
 };
 deploy();

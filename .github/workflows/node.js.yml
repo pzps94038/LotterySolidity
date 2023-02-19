@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run test:typescript
-    - run: npm run deploy && echo "Deployment completed successfully" && exit 0
+    - run: npm run deploy
